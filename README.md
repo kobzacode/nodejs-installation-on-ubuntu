@@ -1,6 +1,8 @@
 ## 📥 Корисні команди з відео:
 
-### 1. Snapcraft — [https://snapcraft.io/node](https://snapcraft.io/node)
+### 1. Встановлення Node.js через Snap у терміналі
+
+**Snapcraft — [https://snapcraft.io/node](https://snapcraft.io/node)**
 
 ```bash
 sudo snap install node --classic
@@ -8,9 +10,9 @@ sudo snap install node --classic
 
 ### 2. Встановлення через Ubuntu App Center
 
-### 3. Node.js офіційний сайт — [https://nodejs.org](https://nodejs.org)
+### 3. Встановлення через nvm:
 
-**Встановлення через nvm:**
+**Node.js офіційний сайт — [https://nodejs.org](https://nodejs.org)**
 
 ```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
@@ -18,9 +20,9 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
 nvm install 22
 ```
 
-### 4. Node.js офіційний сайт — [https://nodejs.org](https://nodejs.org)
+### 4. Standalone binary встановлення:
 
-**Standalone binary встановлення:**
+**Node.js офіційний сайт — [https://nodejs.org](https://nodejs.org)**
 
 ```bash
 tar -xf node-v22.0.0-linux-x64.tar.xz
