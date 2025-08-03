@@ -6,7 +6,9 @@
 sudo snap install node --classic
 ```
 
-### 2. Node.js офіційний сайт — [https://nodejs.org](https://nodejs.org)
+### 2. Встановлення через Ubuntu App Center
+
+### 3. Node.js офіційний сайт — [https://nodejs.org](https://nodejs.org)
 
 **Встановлення через nvm:**
 
@@ -16,7 +18,7 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
 nvm install 22
 ```
 
-### 3. Node.js офіційний сайт — [https://nodejs.org](https://nodejs.org)
+### 4. Node.js офіційний сайт — [https://nodejs.org](https://nodejs.org)
 
 **Standalone binary встановлення:**
 
@@ -27,14 +29,14 @@ echo 'export PATH=/usr/local/nodejs/bin:$PATH' >> ~/.bashrc
 source ~/.bashrc
 ```
 
-### 4. Встановлення через офіційний репозиторій Ubuntu (APT):
+### 5. Встановлення через офіційний репозиторій Ubuntu (APT):
 
 ```bash
 sudo apt install nodejs
 sudo apt install npm
 ```
 
-### 5. Встановлення через NodeSource:
+### 6. Встановлення через NodeSource:
 
 ```bash
 curl -fsSL https://deb.nodesource.com/setup_22.x | sudo -E bash -
